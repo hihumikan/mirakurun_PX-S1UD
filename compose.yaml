@@ -11,6 +11,9 @@ services:
     volumes:
       - mirakc-epg:/var/lib/mirakc/epg
       - ./config.yml:/etc/mirakc/config.yml:ro
+      - ./logos:/var/lib/mirakc/logos:ro
+      - ./recording:/var/lib/mirakc/recording
+      - ./timeshift:/var/lib/mirakc/timeshift
     environment:
       TZ: Asia/Tokyo
       RUST_LOG: info

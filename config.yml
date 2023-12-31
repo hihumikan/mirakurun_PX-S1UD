@@ -9,3 +9,9 @@ tuners:
       -r -P {{{channel}}}
 epg:
   cache-dir: /var/lib/mirakc/epg
+filters:
+  decode-filter:
+    command: >-
+      echo "{{{channel_type}}}/{{{channel}}} SID#{{{sid}}}"
+recording:
+  basedir: /var/lib/mirakc/recording

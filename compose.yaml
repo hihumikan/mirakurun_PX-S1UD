@@ -9,6 +9,7 @@ services:
     ports:
       - 40772:40772
     volumes:
+      - mirakc-epg:/var/lib/mirakc/epg
       - ./config.yml:/etc/mirakc/config.yml:ro
     environment:
       TZ: Asia/Tokyo

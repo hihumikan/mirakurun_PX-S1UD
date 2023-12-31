@@ -14,3 +14,7 @@ services:
     environment:
       TZ: Asia/Tokyo
       RUST_LOG: info
+volumes:
+  mirakc-epg:
+    name: mirakc_epg
+    driver: local

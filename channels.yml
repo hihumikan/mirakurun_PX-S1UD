@@ -1,0 +1,145 @@
+channels:
+  - name: ＴＯＫＹＯ　ＭＸ
+    type: GR
+    channel: '16'
+  - name: フジテレビ
+    type: GR
+    channel: '21'
+  - name: ＴＢＳ
+    type: GR
+    channel: '22'
+  - name: テレビ東京
+    type: GR
+    channel: '23'
+  - name: テレビ朝日
+    type: GR
+    channel: '24'
+  - name: 日テレ
+    type: GR
+    channel: '25'
+  - name: ＮＨＫＥテレ・東京
+    type: GR
+    channel: '26'
+  - name: ＮＨＫ総合・東京
+    type: GR
+    channel: '27'
+  - name: ＢＳ朝日１
+    type: BS
+    channel: BS01_0
+    services:
+      - 151
+  - name: ＢＳ朝日２
+    type: BS
+    channel: BS01_0
+    services:
+      - 152
+  - name: ＢＳ－ＴＢＳ
+    type: BS
+    channel: BS01_1
+    services:
+      - 161
+  - name: ＢＳテレ東
+    type: BS
+    channel: BS01_2
+    services:
+      - 171
+  - name: ＷＯＷＯＷプライム
+    type: BS
+    channel: BS03_0
+    services:
+      - 191
+    isDisabled: true
+  - name: ＮＨＫＢＳプレミアム
+    type: BS
+    channel: BS03_1
+    services:
+      - 103
+      - 104
+  - name: ＷＯＷＯＷライブ
+    type: BS
+    channel: BS05_0
+    services:
+      - 192
+    isDisabled: true
+  - name: ＷＯＷＯＷシネマ
+    type: BS
+    channel: BS05_1
+    services:
+      - 193
+    isDisabled: true
+  - name: ＢＳ１１イレブン
+    type: BS
+    channel: BS09_0
+    services:
+      - 211
+  - name: ＢＳスカパー！
+    type: BS
+    channel: BS11_1
+    services:
+      - 241
+  - name: ＢＳ日テレ
+    type: BS
+    channel: BS13_0
+    services:
+      - 141
+      - 142
+  - name: ＢＳフジ・１８１
+    type: BS
+    channel: BS13_1
+    services:
+      - 181
+  - name: NHK BS1
+    type: BS
+    channel: BS15_0
+    services:
+      - 101
+  - name: NHK BS1 (Sub)
+    type: BS
+    channel: BS15_0
+    services:
+      - 102
+  - name: テレ朝チャンネル1
+    type: CS
+    channel: CS2
+    services:
+      - 298
+    isDisabled: true
+  - name: テレ朝チャンネル2
+    type: CS
+    channel: CS2
+    services:
+      - 299
+    isDisabled: true
+  - name: AT-X
+    type: CS
+    channel: CS16
+    services:
+      - 333
+    isDisabled: true
+  - name: 日テレプラス
+    type: CS
+    channel: CS24
+    services:
+      - 300
+    isDisabled: true
+  - name: AT-X HD
+    type: SKY
+    channel: ATXHD
+    services:
+      - 33435
+    satellite: JCSAT3A
+    isDisabled: true
+  - name: AXN HD
+    type: SKY
+    channel: AXNHD
+    services:
+      - 33418
+    satellite: JCSAT4A
+    isDisabled: true
+  - name: BS SPTV
+    type: SKY
+    channel: CH585
+    services:
+      - 33353
+    satellite: JCSAT3A
+    isDisabled: true

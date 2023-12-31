@@ -1,3 +1,9 @@
 server:
   addrs:
     - http: '0.0.0.0:40772'
+tuners:
+  - name: adapter0
+    types: [GR]
+    command: >-
+      dvbv5-zap -a 0 -c ./config/dvbconf-for-isdb/conf/dvbv5_channels_isdbt.conf
+      -r -P {{{channel}}}

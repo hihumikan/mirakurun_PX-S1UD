@@ -4,6 +4,8 @@ services:
     container_name: mirakc
     init: true
     restart: unless-stopped
+    devices:
+      - /dev/dvb/adapter0/dvr0
     ports:
       - 40772:40772
     volumes:
